@@ -1,0 +1,230 @@
+<html>
+
+<head>
+    <title>Your Discount PC Store</title>
+    <link rel="stylesheet" href="slideshow.css" />
+    <script src="scripts/alertbox.js">
+    </script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+        
+        .row {
+            margin: 0 -5px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: white;
+        }
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: white;
+        }
+        
+        .topnav a.active {
+            background-color: #2196f3;
+            color: white;
+        }
+        
+        topnav input[type=text] {
+            float: right;
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            border: none;
+            font-size: 17px;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .topnav a,
+            .topnav input[type=text] {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+            }
+            .topnav input[type=text] {
+                border: 1px solid #ccc;
+            }
+        }
+        
+        body {
+            background-color: sandybrown;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #111111;
+        }
+        
+        p {
+            background-color: black;
+        }
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 40%;
+        }
+        
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .container {
+            padding: 2px 16px;
+        }
+        
+        .table {
+            border: 1px solid gray;
+        }
+        
+        td,
+        tr {
+            border-bottom: 1px solid gray;
+        }
+        
+        tr,
+        td::hover {
+            background-color: gray;
+        }
+        
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+        }
+        /*footer*/
+        
+        .footer {
+            background-color: black;
+            color: white;
+        }
+        
+        .li {
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table style="width: auto;">
+        <tr>
+            <th>
+                <a href="index.html">
+                    <image src="Pictures/PC_discount.png"></image>
+                </a>
+            </th>
+            <th>
+                <img src="Pictures/banner.jpeg" style="width: 1000px; height: 200px;">
+            </th>
+            <th>
+                <a href="#afterpay_policy">
+                    <img src="Pictures/afterpay.jpeg">
+                </a>
+            </th>
+        </tr>
+    </table>
+    <div class="topnav">
+        <ul>
+            <li><a href="#Desktop">Desktop</a></li>
+            <li><a href="#Laptop">Laptop</a></li>
+            <li><a href="#Components">Components</a></li>
+            <li><a href="#Peripherals">Peripherals</a></li>
+            <li><a href="#Warranty_and_Services">Warranty and Services</a></li>
+            <br>
+            <li><input type="text" placeholder="Search a Deal..."></li>
+            </br>
+            <a href="#shopping_cart"><img src="Pictures/cart.jpeg" style=" float: right; height: 25px; width: 25px;"></a>
+        </ul>
+    </div>
+    <h5>At PC Discount, we have been selling quality used and off-lease computers and accessories since 2017. We are striving to provide the best deals to our customers. For the past 3 years we have provided both personal and business customer alike with
+        affordable devices and professional service. Located at the heart of the country, our ideal place allows us top serve kiwis from the tip of North Island to the bottom of South Island. Our true and tested method of building a great relationship
+        with OEM manufacturer and clients alike helps us become the leading name in the Used and Off-Lease PC business.
+    </h5>
+
+    <p>
+
+        <div class="footer">
+            <div class="table">
+                <table style="width:100%">
+                    <ul>
+                        <h3 style="color: white;">General Links</h3>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="#contact_us">CONTACT US</a></li>
+                    </ul>
+                </table>
+            </div>
+        </div>
+
+
+    </p>
+    <marquee direction="side" height="20" width="200" bgcolor="white">Dave (Tauranga) Just bought a Lenovo ThinkPad X1 Carbon 6th Gen!</marquee>
+</body>
+
+</html>

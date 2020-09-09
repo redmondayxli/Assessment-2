@@ -1,0 +1,3 @@
+websites and resources that I used for this project came form w3school, copyright free stock images with creative commons attributions and I tried to re-write the code wherever possible. for 
+the code itself i just remebered to add comments to each section of the code. My failure to do so in the early parts of the project did cause some confusion for me later 
+in the project and also for anyone who might see the code. I treat it as a learning experience and now with the lesson I learned from this project i feel pretty good to do another project ike this.
